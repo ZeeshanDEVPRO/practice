@@ -1,0 +1,29 @@
+{
+  "name": "redis-express-ts",
+  "version": "1.0.0",
+  "description": "Express server with Redis integration in TypeScript",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "express",
+    "redis",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^18.15.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "redis": "^5.10.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
